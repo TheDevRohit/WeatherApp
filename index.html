@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css"
+      integrity="sha512-9YHSK59/rjvhtDcY/b+4rdnl0V4LPDWdkKceBl8ZLF5TB6745ml1AfluEU6dFWqwDw9lPvnauxFgpKvJqp7jiQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      
+      <h1 id="404"></h1>
+      
+      <div class="ui-box">
+        
+            <div class="search">
+            <input type="search" name="search" class="search-box" id="search-box" autofocus
+              placeholder="Search-Place" required/>
+
+              <button id="btn"  class="fa-solid fa-magnifying-glass"></button>
+            </div>
+        
+          <div class="error" id="error">
+              <h3>City is Not Found</h3>
+              <img src="images/404.png" alt="Error Image 404">
+          </div>
+
+      <div class="weather-body" id="weather-body">      
+        <div class="img">
+          <img src="" alt="Weather Image" id="sun-img"/>
+        </div>
+        <p class="description" id="discription">Light Rain</p>
+        <div class="degree">
+          <h1 id="temp"></h1>
+        </div>
+
+        <div class="city-name" id="city-name"></div>
+
+        <div class="icons">
+          <div class="humidity-icon"><i class="fa-solid fa-droplet"></i></div>
+          <div class="wind-icon"><i class="fa-solid fa-wind"></i></div>
+        </div>
+
+        <div class="bottom-text">
+          <p id="Humeday"></p>
+          <p id="windspeed"></p>
+        </div>
+
+        <div class="bottom-text2">
+          <p>Humidity</p>
+          <p>Wind Speed</p>
+          
+
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
